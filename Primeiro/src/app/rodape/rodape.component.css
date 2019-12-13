@@ -1,0 +1,14 @@
+.footer {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(218, 206, 193);
+  }
+  .content {
+    padding: 20px;
+    min-height: 100%;
+    margin: 0 auto -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
