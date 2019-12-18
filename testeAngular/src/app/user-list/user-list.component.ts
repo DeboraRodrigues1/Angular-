@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserListComponent implements OnInit {
 
+  public listaDeUser: User[];                                                                                                                                                                                    
   constructor(private UserService: UserService) { }
 
   users: User[];

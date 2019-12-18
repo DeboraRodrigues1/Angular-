@@ -1,4 +1,4 @@
-import { Geo }from './geo';
+import { Geo } from './geo';
 
 export class Address{
     private street: string;

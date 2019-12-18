@@ -1,4 +1,4 @@
-import { Address } from 'cluster';
+import { Address } from './address';
 import { Company }from './company';
 
 export class User{
@@ -7,9 +7,9 @@ export class User{
     private nome: string;
     private username: string;
     private email: string;
-    private address: Address;
     private phone: string;
     private website: string;
+    private address: Address;
     private company: Company;
 
 

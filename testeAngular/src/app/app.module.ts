@@ -8,6 +8,8 @@ import { NavBarComponent } from './navbar/nav-bar.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserListComponent } from './user-list/user-list.component';
+import { BuscaComponent } from './busca/busca.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { UserListComponent } from './user-list/user-list.component';
     TituloComponent,
     NavBarComponent,
     RodapeComponent,
-    UserListComponent
+    UserListComponent,
+    BuscaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
